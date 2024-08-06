@@ -23,10 +23,10 @@ $resultados = $handler->handleConversion($_POST);
     <form method="POST">
         <fieldset>
             <legend>Conversão</legend>
-            <label for="numero">Número Arábico (deixe vazio se estiver convertendo romano):</label>
+            <label for="numero">Número Arábico :</label>
             <input type="number" id="numero" name="numero" min="1">
 
-            <label for="romano">Número Romano (deixe vazio se estiver convertendo arábico):</label>
+            <label for="romano">Número Romano :</label>
             <input type="text" id="romano" name="romano" pattern="[IVXLCDMivxlcdm]+" placeholder="Ex.: XI">
 
             <button type="submit">Converter</button>
