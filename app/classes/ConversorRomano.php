@@ -56,7 +56,7 @@ class ConversorRomano
         $output = "";
 
 
-        // Itera sobre cada valor e numeral romano definido.
+        // Percorre cada valor e numeral romano definido.
         foreach ($roman as $value => $numerals) {
             // Enquanto o número for maior ou igual ao valor, adiciona o numeral correspondente e subtrai o valor correspondente.
             while ($this->number >= $value) {
